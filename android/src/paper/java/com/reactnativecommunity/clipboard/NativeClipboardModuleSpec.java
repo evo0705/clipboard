@@ -77,6 +77,10 @@ public abstract class NativeClipboardModuleSpec extends ReactContextBaseJavaModu
   @ReactMethod
   @DoNotStrip
   public abstract void hasWebURL(Promise promise);
+  
+  @ReactMethod
+  @DoNotStrip
+  public abstract void clearClipboard(Promise promise);
 
   @ReactMethod
   @DoNotStrip
